@@ -32,7 +32,7 @@ export const InputPresenter = ({
   />
 );
 
-InputPresenter.PropTypes = {
+InputPresenter.propTypes = {
   className: PropTypes.string,
   onChange: PropTypes.func,
   defaultValue: PropTypes.string,

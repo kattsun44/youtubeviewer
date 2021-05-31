@@ -59,7 +59,7 @@ const Button = ({
   </Root>
 );
 
-Button.PropTypes = {
+Button.propTypes = {
   className: PropTypes.string,
   children: PropTypes.node.isRequired,
   type: PropTypes.string,

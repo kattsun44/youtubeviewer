@@ -71,7 +71,7 @@ const Typography = ({
   </Root>
 );
 
-Typography.PropTypes = {
+Typography.propTypes = {
   className: PropTypes.string,
   size: PropTypes.oneOf(sizes),
   color: PropTypes.oneOf(colors),
