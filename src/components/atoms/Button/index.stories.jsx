@@ -12,3 +12,8 @@ export const size = () => sizes.map((s) => (
   </div>
 ));
 
+export const fullWidth = () => sizes.map((s) => (
+  <div key={s} style={{ margin: '20px' }}>
+    <Button {...props} size={s} fullWidth>ボタン</Button>
+  </div>
+));
