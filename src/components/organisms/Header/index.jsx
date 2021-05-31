@@ -8,5 +8,19 @@ const Root = styled.div`
 `
 
 const Header = ({ className }) => (
-  <React
-)
+  <Root className={className}>
+    <Typography size="title" color="red" align="center">
+      Youtube Viewer
+    </Typography>
+  </Root>
+);
+
+Header.propTypes = {
+  className: PropTypes.string,
+};
+
+Header.defaultProps = {
+  className: '',
+};
+
+export default Header;
