@@ -116,7 +116,7 @@ TopPageContainer.propTypes = {
 
 TopPageContainer.defaultProps = {
   api: {
-    search: (keyword, params) => axios.get(`/api/videos/search/${keyword}`, [params]),
+    search: (keyword, params) => axios.get(`/api/videos/search/${keyword}`, { params }),
   },
   defaultKeyword: 'ねこ',
 };
